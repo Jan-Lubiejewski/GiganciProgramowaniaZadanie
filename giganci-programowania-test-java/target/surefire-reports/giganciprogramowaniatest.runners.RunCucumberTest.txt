@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: giganciprogramowaniatest.runners.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.90 s <<< FAILURE! -- in giganciprogramowaniatest.runners.RunCucumberTest
+Registration Form.Verify correct first step from submission with correct data -- Time elapsed: 30.63 s <<< FAILURE!
+java.lang.AssertionError
+	at giganciprogramowaniatest.steps.registration.RegistrationSteps.moves_to_fifth_registration_page(RegistrationSteps.java:172)
+	at ✽.I am at Sign Agreement step(file:///C:/git%20repos/GiganciProgramowaniaZadanie/giganci-programowania-test/src/test/resources/features/register.feature:63)
+
